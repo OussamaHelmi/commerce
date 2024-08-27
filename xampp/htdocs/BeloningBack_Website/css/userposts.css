@@ -1,0 +1,48 @@
+.remove-btn {
+   
+    cursor: pointer;
+}
+    table {
+        width: 60%;
+        border-collapse: collapse;
+        position: relative;
+        left:20%;
+        /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.055); */
+        margin-top: 30px;
+    }
+    th, td {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+        
+    }
+    th:first-child,
+    td:first-child {
+    
+}
+   
+    span{
+        color: white;
+       
+    }
+    #showimage{
+        width: 160px;
+    }
+
+#button{
+    padding: 6px;
+    background-color:  #1a5e8b;
+}
+.enlarge-date {
+    width: 150px; 
+}
+
+    
+.table-row {
+    border-bottom: 1px solid #ccc; 
+}
+
+.row-spacing {
+    margin-bottom: 30px; 
+   
+}

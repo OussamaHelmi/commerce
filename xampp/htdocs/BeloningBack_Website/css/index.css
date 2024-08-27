@@ -1,0 +1,21 @@
+body{
+    background-image: url(https://img.freepik.com/free-vector/landing-page-with-house-searching-concept_23-2148296948.jpg?t=st=1708628473~exp=1708632073~hmac=cc7b47f6705eae87a0b18c675178795199f960d931d4fbb60b4153dcab743df9&w=740);
+background-size: cover;
+}
+.logo{
+    width: 120px;
+}
+#bg-color{
+    background-color: rgb(228, 214, 214);
+}
+
+#seach{
+    background-color: white;
+    position: absolute;
+    right: 40%;
+    width: 220px;
+    border: none;
+}
+#button{
+    margin: 20px;
+}

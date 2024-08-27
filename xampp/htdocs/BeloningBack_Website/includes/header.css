@@ -1,0 +1,86 @@
+
+.navbar {
+    background-color: #1a5e8b; 
+    border-bottom: 1px solid #cccccc;  
+    height: 60px;
+}
+
+.navbar-brand {
+    color: #ffffff; 
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+   }
+
+.navbar-brand img {
+    max-width: 100%; 
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+    font-weight: bold; 
+    font-size: 18px;
+}
+
+#search .form-control {
+    border-radius: 0px; 
+}
+
+.dropdown-menu.account-menu {
+    min-width: 150px; 
+}
+
+.dropdown-menu.account-menu a.dropdown-item {
+    color: #333333; 
+}
+
+.navbar-brand.log {
+    color: #ffffff; 
+    margin-right: 20px; 
+}
+
+
+.navbar-brand[href="lost&found_report.php"],
+.navbar-brand[href="#"] {
+    color: #ffffff; 
+    margin-right: 0px; 
+}
+
+
+
+
+
+
+
+.navbar .container-fluid {
+    display: flex;
+    align-items: center;
+}
+
+
+.navbar .col-sm-3 {
+    display: flex;
+    align-items: center;
+}
+#search{
+    margin-left: 100px;
+}
+
+#sp{
+    margin-left: 115px;
+}
+
+/* Hide the dropdown arrow */
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+
+.signup{
+    background-color: white;
+    width: 40px;
+    padding: 6px;
+    color: #1a5e8b;
+    border-radius: 11px;
+}
+

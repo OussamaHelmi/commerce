@@ -1,0 +1,35 @@
+#footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:#1a5e8b; 
+    color: #fff; 
+    padding: 10px; 
+    padding-left: 100px;
+    margin-top: 60px;
+  
+}
+.one{
+width: 33%;
+text-align: start;
+
+
+}
+.twoo{
+    width: 33%;
+    text-align: start;
+    padding-left: 160px;
+  
+}
+.three{
+    width: 33%;
+    text-align: start;
+    padding-left: 140px;
+  
+}
+.three img{
+    width: 160px;
+    padding: 0;
+    margin: -20px;
+   }

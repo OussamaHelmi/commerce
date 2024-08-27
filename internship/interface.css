@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500,600;700@display=swap");
+*{
+    margin:0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family:"Poppins",sans-serif;
+
+}
+body{
+    background-color:white;
+}
+nav{
+    
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 99px;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.logo{
+    text-align: center;
+    display: flex;
+    transition: all 0.5s ease;
+    margin: 0px 0 0 0px;
+    border-bottom: 1px solid black;    
+}
+
+.logo img{
+    width: 80px;
+    height: 70px;
+    border-radius: 0px;
+}
+.logo span{
+    font-weight: bold;
+    padding-left: 1px;
+    margin-top:40px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+a{
+    position: relative;
+    color: rgb(85, 83, 83);
+    font-size: 14px;
+    display: table;
+    width: 300px;
+    padding: 10px;
+
+}
+.fas{
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+}
+.nav-item{
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+}
+a:hover{
+    background: white;
+
+}
+nav:hover{
+    width: 280px;
+    transition: all 0.5s ease;
+}
+.partner{
+    height: 30px;
+    margin-top: 520px;  
+    position: relative;
+    width: 280px;
+    padding: 0;
+  
+   
+}
+.contanier{
+   animation: scroll 40s linear infinite;
+    display: flex;
+    width: 1000px;
+   margin-left: 279px;
+   
+   
+    
+}
+.partner-box{
+    height: 55px;
+    width: 40px;
+    text-align: center;
+    margin-left: 115px;
+   
+   
+    
+   
+
+}
+.partner-box img{
+    
+    width: 70px;
+    margin-top: -15px;
+}
+.partner-box:hover{
+    transform: scale(1.03);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.0.3);
+    
+    
+  }
+  .title{
+
+    text-align: center;
+    margin-left: 690px;
+    width: 180px;
+    font-size: 22px;
+    padding-bottom: 16px;
+    
+    color:rgba(0, 0, 0, 0.596);
+  }
+  header{
+    background-color: rgba(37, 199, 185, 0.678);
+    width: 1067px;
+    height: 35px;
+    margin-left: 280px;
+  }
+  .middle{
+    margin-top: 10px;
+    margin-left: 450px;
+    width: 800px;
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+    
+    
+  }
+  .middle-container{
+    width: 800px;
+    height: 120px;
+    display: flex;
+    padding: 1px 35px 0 0;
+    
+   
+    
+  }
+  .middle-box{
+    width: 360px;
+    height: 90px;
+    padding: 10px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 40px;
+    background-color: rgba(27, 100, 168, 0.411);
+  }

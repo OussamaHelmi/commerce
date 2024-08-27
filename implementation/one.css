@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+}
+.firs-container{
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+}
+.first-photo img{
+    width: 1340px;
+    height: 500px;
+}
+.servies{
+    text-align: center;
+    box-shadow: 1px 0px 0 1px white inset;
+    transition: 0.3s;
+}
+.servies img{
+    width: 60px;
+}
+h2{
+    padding-top: 120px;
+    text-align: center;
+}
+.second-container{
+    display: flex;
+ 
+}
+.left-part{
+    width: 70%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.product{
+    width: 49%;
+    height: 100px;
+    margin-right: 5px;
+}
+.right-part{
+    width: 30%;
+    padding-bottom: 180px;
+}
+.third-container{
+    display: flex;
+    justify-content: center;
+}
+.portifilo{
+    width: 30%;
+    margin-right: 20px;
+    background-color: white;
+    border: 1px solid rgb(224, 222, 222);
+    overflow: hidden;
+    transition: transform 0.1s ease;
+    box-shadow: 1px 1px 6px 1px rgb(238, 227, 227) inset;
+}
+
+.portifilo img{
+    width: 400px;
+    height: 220px;
+    overflow-y: hidden;
+}
+
+.about{
+    display: flex;
+}
+.lfet{
+width: 50%;
+position: relative;
+left:120px;
+}
+.right{
+    width: 40%;
+ }
+ .column{
+    width: 80px;
+    height: 370px;
+    background-color: rgb(123, 132, 133);
+    position:absolute;
+    top: -40px;
+    left: -20px;
+    z-index: -1;
+ }
+.line{
+    width: 200px;
+    height: 2px;
+
+    border-top: 1px solid aqua;
+}
+
+.columnn{
+    /*
+content:"";
+position: absolute;
+width: 1200px;
+height: 300px;
+background-color: red;
+border-left: 88px solid red;
+border-bottom: 88px solid red;
+z-index: -1;
+*/
+
+
+
+    
+    width: 80px;
+    height: 370px;
+    background-color: rgb(29, 54, 80);
+    position:absolute;
+    top: 975px;
+    left: 1200px;
+    z-index: -1;
+}
+
+
+.hello{
+    color: aqua;
+    text-align: center;
+    position: relative;
+    top: 120px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.for img{
+    width: 400px;
+    height: 220px;
+    overflow:hidden;
+    transition: transform 0.1s ease;
+}
+
+
+
+
+.for img:hover{
+overflow: hidden;
+transform: scale(1);
+}
+
+
+.servies :hover{
+    transform: scale(1.);
+}
+.shape{
+    position: absolute;
+    top: -30px;
+    left: 250px;
+width: 180px;
+height: 300px;
+
+border-left: 88px solid rgb(14, 207, 207);
+border-bottom: 88px solid rgb(14, 207, 207);
+z-index: -1;
+
+}
+h1{
+
+    padding-left: 60px;
+    color: rgb(29, 54, 80);
+}
+footer{
+    width: auto;
+    height: 70px;
+    background-color:rgb(29, 54, 80);
+}
+#i{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}

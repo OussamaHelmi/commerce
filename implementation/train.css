@@ -1,0 +1,130 @@
+body{
+    background-color:white;
+}
+
+.wrapper{
+
+}
+
+.header-part{
+    display: flex;
+    
+
+}
+.name{
+  font-size: 16px;
+  padding-right: 190px;
+}
+nav ul {
+    list-style: none;
+    margin-top: 5px;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 6px;
+    text-decoration: none;
+    color: black;
+  }
+  nav ul li:hover > ul.dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    padding: 0;
+  }
+  
+  .dropdown-menu li {
+    display: block;
+  }
+  
+  .dropdown-menu li a {
+    padding: 10px;
+  }
+  .slideshow img{
+    width: 1340px;
+    height: 600px;
+  }
+  .slideshow img {
+    display: none; /* Hide all images by default */
+  }
+  
+  .slideshow img:first-child {
+    display: block; /* Display the first image */
+  }
+  
+.whole-arrive h2,p{
+  display: block;
+  text-align: center;
+
+  
+}
+.new-arrives{
+  display: flex;
+  height: 300px;
+  border: 1px solid red;
+  overflow: hidden;
+}
+.product{
+  display: flex;
+  flex-direction: column;
+ 
+  text-align: center;
+  border-left: 1px solid #eee;
+  border-right:1px solid #eee; 
+  transition:0.1s;
+}
+.product:hover{
+ transform:scaley(1.5)
+}
+.photo img{
+  height: 180px;
+}
+.owl-carousel.nav-style-4 .owl-next:before {
+  content: "\f809";
+}
+.owl-carousel .owl-nav .owl-next:before {
+  font-family: "porto-icons";
+  content: "\e81a";
+  position: relative;
+  left: 1px;
+}
+*, ::after, ::before {
+  box-sizing: inherit;
+}
+
+
+
+.catagories{
+  display: flex;
+  flex-direction: row;
+  padding-top: 18px;
+  justify-content: center;
+}
+
+
+.clickable-photo {
+  display: inline-block; /* Display as a block element */
+  text-decoration: none; /* Remove underline */
+}
+
+.clickable-photo img {
+  opacity: 1; /* Set initial opacity */
+  transition: opacity 0.3s ease; /* Add transition effect */
+  width: 180px;
+}
+
+.clickable-photo:hover img {
+  opacity: 0.7; /* Reduce opacity on hover */
+}
+.details h5{
+  text-align: center;
+}

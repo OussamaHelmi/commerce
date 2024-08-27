@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+body{
+background-color: white;
+}
+nav{ 
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 190px;
+   margin-top: -20px;
+}
+nav ul,li a{ 
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+  
+
+}
+
+.special{
+    position: relative;
+    left: 480px;
+}
+.one{
+    width: 80px;
+    height: 28px;
+   padding: 2px 12px;
+    border-radius: 10px;
+    border: 1px solid rgb(145, 139, 139);
+}
+.logo{
+    width: 70px;
+   position: relative;
+   top: 20px;
+   left: 90px;
+
+}
+.contanier{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+   left: 250px;
+    gap: 2px;
+}
+.rightside {
+    width: 20%;
+ 
+   
+}
+.rightside img{
+width: 380px;
+height:450px;
+
+}
+.leftside{
+    width: 40%;
+    
+}
+button{
+    background-color:black;
+    color:white;
+    width: 120px;
+    height: 35px;
+}
+.brand{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-top: 60px;
+}
+.brand img{
+width: 80px;
+}
+select{
+    /*border-color: transparent;*/
+    border: none;
+}

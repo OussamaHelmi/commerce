@@ -1,0 +1,100 @@
+
+
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+}
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 15px;
+    position: absolute;
+    left:820px;
+
+}
+ul a{
+    color: #000;
+    text-decoration: none;
+}
+#logo{
+    font-size: 50px;
+    margin-top: -10px;
+    padding-left: 200px;
+}
+.body{
+    display: flex;
+    justify-content: center;
+   gap: 5px;
+}
+.leftside{
+    width: 50%;
+}
+.rightside{
+    width: 20%;
+    background-color: #160849;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.37);
+}
+.details h3,p{
+    color: white;
+    padding: 0 3px ;
+
+  
+}
+h3:hover{
+    cursor: pointer;
+ color: yellow;
+}
+.image img{
+    width: 650px;
+    height: 200px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.info p{
+    color: #000;
+}
+#sp1{
+    width: 250px;
+    padding-left: 15px;
+  
+    
+}
+#sp2{
+    width: 300px;
+    height: auto;
+ 
+}
+.down{
+    width: 70%;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 200px;
+    gap: 10px;
+    justify-content: space-around;
+}
+.show{
+    display: flex;
+    width: 23.3%;
+}
+
+.lo img{
+    width: 80px;
+    padding: 0 5px;
+}
+.number p,h3{
+    color: #000;
+    
+    padding: 0px;
+}
